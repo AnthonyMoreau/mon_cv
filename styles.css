@@ -1,17 +1,54 @@
+header{
+
+    color: rgb(208, 213, 216);
+    background-color: rgb(53, 52, 52);
+
+}
+
 h1{
-   color: red; 
+
+    font-size: 22px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+a{
+    color: rgb(208, 213, 216); 
+    text-decoration: none;
+
+}
+
+.title{
+
+    color: rgb(49, 46, 46);
+    text-decoration: underline; 
+}
+
+.under_title{
+
+    text-decoration: underline;
+
+}
+
+.italic{
+
+    font-style: italic;
+    
 }
 
 #address{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     font-size: 20px;
     font-weight: bold;
-    color: rgb(32, 172, 85);
+
 }
 
 .contact{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     font-size: 20px;
     font-weight: bold;
-    color: rgb(32, 172, 85, 0.5);
+    
 }
