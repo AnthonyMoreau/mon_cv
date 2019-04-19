@@ -1,18 +1,25 @@
 header{
 
+    margin: auto;
+    padding: 20px 0 0 20px ;
+    height: auto;
+    width: 80%;
     color: rgb(208, 213, 216);
     background-color: rgb(53, 52, 52);
 
 }
 
 h1{
-
+    
+    text-align: center;
     font-size: 22px;
 
 }
 
 ul li {
+
     list-style: none;
+
 }
 
 a{
@@ -23,8 +30,18 @@ a{
 
 .title{
 
-    color: rgb(49, 46, 46);
-    text-decoration: underline; 
+    color: rgb(235, 238, 241);
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(75, 74, 74);
+
+}
+
+.tab{
+
+    margin: 10px;
+
 }
 
 .under_title{
@@ -36,19 +53,40 @@ a{
 .italic{
 
     font-style: italic;
-    
+
 }
 
 #address{
     
-    font-size: 20px;
+    text-align: center;
+    font-size: 12px;
     font-weight: bold;
 
 }
 
 .contact{
 
-    font-size: 20px;
+    text-align: center;
+    font-size: 12px;
     font-weight: bold;
     
+}
+
+.container{
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.footer{
+
+    width: 80%;
+    text-align: center;
+    font-size: 1em;
+    color: rgb(208, 213, 216);
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(54, 55, 56);
+
 }
