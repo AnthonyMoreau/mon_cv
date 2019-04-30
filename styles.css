@@ -1,94 +1,155 @@
-header{
 
-    margin: auto;
-    padding: 20px 0 20px 0 ;
-    height: auto;
+.separation {
+
+ height: 2px;
+ background-color: whitesmoke;
+ clear: both;
+
+}
+.container {
+
     width: 80%;
-    color: rgb(208, 213, 216);
-    background-color: rgb(53, 52, 52);
-
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1{
-    
-    text-align: center;
-    font-size: 22px;
+header {
 
-}
-
-ul li {
-
-    list-style: none;
-
-}
-
-a{
-    color: rgb(208, 213, 216); 
-    text-decoration: none;
-
-}
-
-.title{
-
-    text-align: center;
-    color: rgb(235, 238, 241);
     height: auto;
-    margin: 10px 0 10px 0;
+    color: whitesmoke;
+    height: 300px;
+    background-color: rgb(37, 37, 37);
+
+}
+
+aside h2, main h2 {
+
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0 20px 0;
+
+}
+
+.name {
+
+    text-align: center;
+    height: auto;
+    width: 20%;
+    padding: 0 100px 0 30%;
+    float: left;
+
+}
+
+.name h1 { 
+
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.name .mail {
+
+    margin: 0 0 10px 0;
+
+}
+
+.name ul {
+
+    padding: 0 0 10px 0;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+.name ul li {
+
+    display: inline;
+
+} 
+
+.name .titre {
+
+    font-size: 30px;
+    padding: 30px 0 0 0;
+
+}
+
+header img {
+
     padding: 10px;
-    border-radius: 5px;
-    background-color: rgb(75, 74, 74);
 
 }
 
-.tab{
-
-    margin: 10px;
-
-}
-
-.under_title{
-
-    text-decoration: underline;
-
-}
-
-.italic{
-
-    font-style: italic;
-
-}
-
-#address{
-    
-    text-align: center;
-    font-size: 12px;
-    font-weight: bold;
-
-}
-
-.contact{
+nav {
 
     text-align: center;
-    font-size: 12px;
-    font-weight: bold;
-    
+
 }
 
-.container{
+nav ul li {
 
+    display: inline;
+
+}
+
+.content {
+
+    height: auto;
+
+}
+
+aside {
+    height: auto;
+    width: 30%;
+    float: left;
+}
+
+main {
+
+    text-align: center;
+    margin: 0 0 0 30%;
+    width: 70%;
+}
+
+main ul li, main ol li {
+
+    padding: 10px 0 10px 0;
+
+}
+
+.formulaire {
+
+    text-align: center;
+
+}
+
+footer {
+
+    text-align: center;
+
+}
+
+.border {
+
+    height: 20px;
     width: 80%;
-    margin: auto;
+
+    border: 1px solid;
+    border-color: black;
 
 }
 
-.footer{
+aside h3 {
 
-    width: 80%;
-    text-align: center;
-    font-size: 1em;
-    color: rgb(208, 213, 216);
-    margin: auto;
-    padding: 5px;
-    background-color: rgb(54, 55, 56);
+    padding: 50px 0 50px 5px;
+    font-weight: 600; 
+
+}
+
+aside p {
+
+    font-size: 12px;
+    padding: 40px 0 40px 30px;
 
 }
