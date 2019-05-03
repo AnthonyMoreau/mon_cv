@@ -1,3 +1,10 @@
+header {
+
+    background-color: rgb(45, 79, 116);
+
+}
+
+
 .container {
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,9 +17,9 @@
 
 .name_address {
 
+    color: whitesmoke;
     margin: auto;
     width: 100%;
-    background-color: violet;
 
 }
 
@@ -20,7 +27,7 @@
 
     font-size: 30px;
     font-weight: 600;
-    padding: 10px;
+    padding: 20px 0 10px 0;
 
 }
 
@@ -36,6 +43,12 @@
 
 }
 
+.float_photo h2:hover {
+
+    background-color: rgb(205, 191, 107);
+    cursor: pointer;
+
+}
 .link_network ul {
 
     padding: 20px;
@@ -50,25 +63,52 @@
 
 }
 
+.link_network ul li i {
+
+    color: rgb(205, 191, 107);
+    margin: 0 5px 0 0;
+
+}
+
+.link_network ul li a:hover {
+
+    color : rgb(205, 191, 107);
+
+}
+
 .float_photo {
 
     width: 75%;
     text-align: center;
-    background-color: aquamarine;
     float: left;
+
+}
+
+.float_photo .email {
+
+    margin-bottom: 10px;
+
+}
+
+.float_photo h2 {
+    
+    padding: 20px 0 20px 0;
+    margin: auto;
+    width: 25%;
+    background-color: rgb(165, 91, 54);
+    border-radius: 8px;
 
 }
 
 .profil_photo img{
 
-    margin: 5px 0 5px 20px;
+    margin: 20px 0 5px 20px;
 
 }
 
 .nav {
 
     text-align: center;
-    background-color: blue;
 
 }
 
@@ -85,10 +125,17 @@
 
 }
 
+.nav li a:hover {
+
+    color: rgb(228, 228, 228);
+
+}
+
 aside {
 
-    width: 40%;
-    background-color: brown;
+    height: 800px;
+    width: 30%;
+    background-color: whitesmoke;
     float: left;
 
 }
@@ -119,8 +166,33 @@ aside h3 {
 
 .cursus {
 
+    background-color: whitesmoke;
+
+}
+
+.cursus .competence h3, .cursus .formation h3 {
+
     text-align: center;
-    background-color: darkcyan;
+    font-size: 25px;
+    padding: 40px 0 40px 0;
+
+}
+
+.cursus .competence ul {
+
+    margin-left: 10px;
+
+}
+
+.cursus .competence ol {
+
+    padding: 20px;
+
+}
+
+.cursus .competence li {
+
+    padding: 0 0 10px 0;
 
 }
 
