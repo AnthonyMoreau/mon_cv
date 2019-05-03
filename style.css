@@ -1,0 +1,176 @@
+.container {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    width: 80%;
+    background-color: whitesmoke;
+    margin: auto;
+
+}
+
+.name_address {
+
+    margin: auto;
+    width: 100%;
+    background-color: violet;
+
+}
+
+.name_address h1 {
+
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.name_address p {
+
+        padding: 5px;
+}
+
+.name_address h2 {
+
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.link_network ul {
+
+    padding: 20px;
+
+}
+
+.link_network ul li {
+
+    display: inline;
+    font-size: 20px;
+    padding: 40px;
+
+}
+
+.float_photo {
+
+    width: 75%;
+    text-align: center;
+    background-color: aquamarine;
+    float: left;
+
+}
+
+.profil_photo img{
+
+    margin: 5px 0 5px 20px;
+
+}
+
+.nav {
+
+    text-align: center;
+    background-color: blue;
+
+}
+
+.nav ul {
+
+    padding: 20px;
+
+}
+
+.nav ul li {
+
+    display: inline;
+    padding: 30px;
+
+}
+
+aside {
+
+    width: 40%;
+    background-color: brown;
+    float: left;
+
+}
+
+aside h3 {
+
+    font-size: 20px;
+    padding: 10px 0 20px 5px;
+
+}
+
+.border {
+
+    height: 20px;
+    width: 70%;
+    border: 2px solid;
+    border-color: black;
+    margin: 0 0 0 5px;
+}
+
+.background {
+
+    height: 20px;
+    width: 50%;
+    background-color: black;
+
+}
+
+.cursus {
+
+    text-align: center;
+    background-color: darkcyan;
+
+}
+
+.form {
+
+    text-align: center;
+    width: 50%;
+    background-color: darkgreen;
+    margin: auto;
+    padding: 20px 0 0 0;
+    clear: both;
+
+}
+
+.form input[type=text] {
+
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.form textarea {
+
+    margin: 10px;
+    padding: 10px; 
+
+}
+
+button {
+
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+
+  button:hover {
+
+    background-color: rgb(66, 240, 72);
+
+  }
+
+  footer {
+
+        height: 40px;
+        background-color: darkkhaki;
+  }
