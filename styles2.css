@@ -134,6 +134,26 @@ header h2 {
 
 }
 
+#youtube {
+
+    color: rgb(255, 0, 0);
+
+}
+
+#github {
+
+    color: rgb(189, 191, 192);
+
+}
+
+#linkedin {
+
+    color: rgb(0, 115, 176);
+
+}
+
+
+
 .profil_photo img {
 
     margin-top: 20px;
@@ -162,7 +182,7 @@ main h2 {
 
 .skill {
 
-    width: 50%;
+    width: 30%;
     margin:50px auto;
 
 }
@@ -178,7 +198,7 @@ main h2 {
 .border {
 
     height: 30px;
-    width: 80%;
+    width: 95%;
     border: 2px solid black;
     border-radius: 3px;
 
@@ -196,7 +216,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 60%;
-    background-color: black;
+    background-color: rgb(221, 75, 37);
 
 }
 
@@ -206,7 +226,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 30%;
-    background-color: black;
+    background-color: rgb(239, 216, 29);
 
 }
 
@@ -216,7 +236,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 50%;
-    background-color: black;
+    background-color: rgb(115, 119, 173);
 
 }
 
@@ -226,7 +246,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 70%;
-    background-color: black;
+    background-color: #9C122C;
 
 }
 
@@ -236,7 +256,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 80%;
-    background-color: black;
+    background-color: #DF671D;
 
 }
 
@@ -246,7 +266,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 80%;
-    background-color: black;
+    background-color: #F7151E;
 
 }
 
@@ -256,7 +276,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 80%;
-    background-color: black;
+    background-color: #1090C9;
 
 }
 
@@ -266,7 +286,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 70%;
-    background-color: black;
+    background-color: #131D60;
 
 }
 
