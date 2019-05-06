@@ -156,6 +156,7 @@ header h2 {
 .profil_photo img {
 
     margin-top: 20px;
+    border: 6px solid rgb(0, 0, 0, 0.2);
     border-radius: 30px;
 
 }
