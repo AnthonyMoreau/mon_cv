@@ -1,3 +1,9 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
 header {
 
     position: static;
@@ -30,11 +36,13 @@ header .presentation h1 {
 
 .navigation {
 
-    background-color: violet;
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 8px;
+    background-color: rgb(230, 230, 230);
     position: fixed;
     text-align: center;
-    left: 0;
-    right: 0;
+    left: 10%;
+    right: 10%;
     top: 0;
     padding: 20px 0;
     
@@ -45,6 +53,11 @@ header .presentation h1 {
 
     display: inline-block;
     width: 20%;
+
+}
+.navigation a:hover {
+
+    color: rgb(43, 43, 43);
 
 }
 
@@ -59,6 +72,8 @@ header .presentation h1 {
 
 .profil_photo img{
 
+    border-radius: 8px;
+    background-color: tomato;
     margin: 10px;
 
 }
