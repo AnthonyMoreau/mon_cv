@@ -1,0 +1,71 @@
+header {
+
+    position: static;
+    width: 90%;
+    margin: 60px auto 0 auto;
+
+}
+
+header .float_photo {
+
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    float: left;
+
+}
+
+header .float_photo p {
+
+    padding: 10px 0 10px 0;
+
+}
+
+header .presentation h1 {
+
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+}
+
+.navigation {
+
+    background-color: violet;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 20px 0;
+    
+
+}
+
+.navigation a {
+
+    display: inline-block;
+    width: 20%;
+
+}
+
+.network a {
+
+    height: auto;
+    width: 15%;
+    padding: 20px 0 20px 0;
+    display: inline-block;
+
+}
+
+.profil_photo img{
+
+    margin: 10px;
+
+}
+
+main {
+
+    clear: both;
+
+}
+
