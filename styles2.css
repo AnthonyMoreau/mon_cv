@@ -1,7 +1,7 @@
 body {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(img/leonard-von-bibra-1506299-unsp.jpg);
+    background-image: url(img/background.jpg);
     background-size: contain;
     background-attachment: fixed;
 }
@@ -218,7 +218,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 60%;
-    background-color: rgb(221, 75, 37);
+    background-color: rgb(20, 27, 32);
 
 }
 
@@ -228,7 +228,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 30%;
-    background-color: rgb(239, 216, 29);
+    background-color: rgb(20, 27, 32);
 
 }
 
@@ -238,7 +238,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 50%;
-    background-color: rgb(115, 119, 173);
+    background-color: rgb(20, 27, 32);
 
 }
 
@@ -248,7 +248,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 70%;
-    background-color: #9C122C;
+    background-color: rgb(20, 27, 32);
 
 }
 
@@ -258,7 +258,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 80%;
-    background-color: #DF671D;
+    background-color: rgb(20, 27, 32);
 
 }
 
@@ -268,7 +268,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 80%;
-    background-color: #F7151E;
+    background-color: rgb(20, 27, 32);
 
 }
 
@@ -278,7 +278,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 80%;
-    background-color: #1090C9;
+    background-color: rgb(20, 27, 32);
 
 }
 
@@ -288,7 +288,7 @@ main h2 {
     color: whitesmoke;
     height: inherit;
     width: 70%;
-    background-color: #131D60;
+    background-color: rgb(20, 27, 32);
 
 }
 
