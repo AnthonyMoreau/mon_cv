@@ -14,7 +14,7 @@ a .text-uppercase {
 
 a .text-uppercase:hover {
     
-    color: rgb(143, 143, 143);
+    color: #007bff;
 
 }
 .work {
@@ -28,3 +28,25 @@ address {
 
     background-color: rgb(0, 0, 0, 0.2);
 }
+
+#title {
+
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: rgb(0, 177, 219, 0.3);
+
+}
+#competence {
+
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0, 0.2);
+
+}
+
+.case_separation {
+
+    padding: 30px 0;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
