@@ -1,249 +1,30 @@
-header {
+body {
 
-    background-color: rgb(67, 122, 122);
-    border-radius: 30px;
-
-}
-
-
-.container {
-    
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: auto;
-    width: 80%;
-    background-color: whitesmoke;
-    margin: auto;
+    background-image: url('img/sander-weeteling-1201290-unspl.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
 }
 
-.name_address {
+a .text-uppercase {
 
     color: whitesmoke;
-    margin: auto;
-    width: 100%;
 
 }
 
-.name_address h1 {
-
-    font-size: 30px;
-    font-weight: 600;
-    padding: 20px 0 10px 0;
-
-}
-
-.name_address p {
-
-    padding: 5px;
-}
-
-.name_address h2 {
-
-    padding: 10px;
-    font-size: 20px;
-
-}
-
-.float_photo h2:hover {
-
-    background-color: rgb(205, 191, 107);
-    cursor: pointer;
-
-}
-.link_network ul {
-
-    padding: 20px;
-
-}
-
-.link_network ul li {
-
-    display: inline;
-    font-size: 20px;
-    padding: 40px;
-
-}
-
-.link_network ul li i {
-
-    color: rgb(122, 67, 67);
-    margin: 0 5px 0 0;
-
-}
-
-.link_network ul li a:hover {
-
-    color : rgb(122, 67, 67);
-
-}
-
-.float_photo {
-
-    width: 75%;
-    text-align: center;
-    float: left;
-
-}
-
-.float_photo .email {
-
-    margin-bottom: 10px;
-
-}
-
-.float_photo h2 {
+a .text-uppercase:hover {
     
-    padding: 20px 0 20px 0;
-    margin: auto;
-    width: 25%;
-    background-color: rgb(165, 91, 54);
-    border-radius: 8px;
+    color: rgb(143, 143, 143);
 
 }
+.work {
 
-.profil_photo img{
-
-    margin: 20px 0 5px 20px;
-
-}
-
-.nav {
-
-    text-align: center;
-
-}
-
-.nav ul {
-
-    padding: 20px;
-
-}
-
-.nav ul li {
-
-    display: inline;
-    padding: 30px;
-
-}
-
-.nav li a:hover {
-
-    color: rgb(228, 228, 228);
-
-}
-
-aside {
-
-    height: 800px;
-    width: 30%;
-    background-color: whitesmoke;
-    float: left;
-
-}
-
-aside h3 {
-
-    font-size: 20px;
-    padding: 10px 0 20px 5px;
-
-}
-
-.border {
-
-    height: 20px;
-    width: 70%;
-    border: 2px solid;
-    border-color: black;
-    margin: 0 0 0 5px;
-}
-
-.background {
-
-    height: 20px;
-    width: 50%;
-    background-color: black;
-
-}
-
-.cursus {
-
-    background-color: whitesmoke;
-
-}
-
-.cursus .competence h3, .cursus .formation h3 {
-
-    text-align: center;
-    font-size: 25px;
-    padding: 40px 0 40px 0;
-
-}
-
-.cursus .competence ul {
-
-    margin-left: 10px;
-
-}
-
-.cursus .competence ol {
-
-    padding: 20px;
-
-}
-
-.cursus .competence li {
-
-    padding: 0 0 10px 0;
-
-}
-
-.form {
-
-    text-align: center;
-    width: 50%;
-    background-color: darkgreen;
-    margin: auto;
-    padding: 20px 0 0 0;
-    clear: both;
-
-}
-
-.form input[type=text] {
-
-    margin: 10px;
+    width: 100%;
     padding: 10px;
+    background-color: rgb(0, 0, 0, 0.2);
 
 }
+address {
 
-.form textarea {
-
-    margin: 10px;
-    padding: 10px; 
-
+    background-color: rgb(0, 0, 0, 0.2);
 }
-
-button {
-
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    font-size: 16px;
-    cursor: pointer;
-
-  }
-
-  button:hover {
-
-    background-color: rgb(66, 240, 72);
-
-  }
-
-  footer {
-
-        height: 40px;
-        background-color: darkkhaki;
-  }
