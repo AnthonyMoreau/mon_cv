@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
     background-image: url('../img/sander-weeteling-1201290-unspl.jpg');
