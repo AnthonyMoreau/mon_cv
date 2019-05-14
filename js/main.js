@@ -1,24 +1,23 @@
+/* 
+    on CREER un evenement click
+    on AJOUTE la classe active sur cet élément
+    on SUPPRIMME la classe active sur les autres éléments
+    
+*/
 
-let competence = document.querySelector('#comp')
-let about_me = document.querySelector('#about')
-let objectif = document.querySelector('#obj')
-let portfolio = document.querySelector('#folio')
-let formation = document.querySelector('#form')
-let experience = document.querySelector('#exp')
-let contact = document.querySelector('#cont')
-
-
-
-let window_scroll = window.scrollY
-let scroll = competence.scrollHeight
+let link = document.querySelectorAll('.nav-link')
 
 
-let link_active = document.querySelectorAll('nav .nav-link')
+for (let i = 0; i < link.length; i++) {
 
+    link[i].addEventListener('click', function(e){
 
+        let active = document.querySelector('.active')
+        active.classList.remove('active')
 
-console.log(window_scroll)
+        if(!link[i].classList.contains('.active')) {
 
-
-
-
+            this.classList.add('active')
+        }
+    })
+}
