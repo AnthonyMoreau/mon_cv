@@ -1,16 +1,15 @@
 /* 
     on CREER un evenement click
+    on SUPPRIMME la classe active sur les élément actifs
     on AJOUTE la classe active sur cet élément
-    on SUPPRIMME la classe active sur les autres éléments
     
 */
 
 let link = document.querySelectorAll('.nav-link')
 
-
 for (let i = 0; i < link.length; i++) {
 
-    link[i].addEventListener('click', function(e){
+    link[i].addEventListener('click', function(){
 
         let active = document.querySelector('.active')
         active.classList.remove('active')
@@ -21,3 +20,4 @@ for (let i = 0; i < link.length; i++) {
         }
     })
 }
+
