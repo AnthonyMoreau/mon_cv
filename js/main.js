@@ -1,23 +1,90 @@
-/* 
-    on CREER un evenement click
-    on SUPPRIMME la classe active sur les élément actifs
-    on AJOUTE la classe active sur cet élément
+// taille écran
+let screenWidth = window.innerWidth
+
+
+// recuperation position element
+let about_mePosition = $('#about_me').offset().top
+let competencePosition = ($('#competence').offset().top) - 100
+let objectifPosition = ($('#objectif').offset().top) -150
+let portfolioPosition = ($('#portfolio').offset().top) -100
+let formationPosition = ($('#formation').offset().top) -100
+let experiencePosition = ($('#experience').offset().top) -100
+let contactPosition = ($('#contact').offset().top) -100
+
+// recuperation scroll du document
+let documentScrollPosition = $(document).scrollTop()
+
+
+// active scrool_position
+$(document).ready(function(){
     
-*/
+    $(window).scroll(function(){
+        
+        let tmpScrollTop = $(window).scrollTop();
 
-let link = document.querySelectorAll('.nav-link')
+        if((tmpScrollTop >= 0) && (tmpScrollTop <= competencePosition)){
 
-for (let i = 0; i < link.length; i++) {
+            $('#about').addClass('active')
 
-    link[i].addEventListener('click', function(){
+        } else {
 
-        let active = document.querySelector('.active')
-        active.classList.remove('active')
-
-        if(!link[i].classList.contains('.active')) {
-
-            this.classList.add('active')
+            $('#about').removeClass('active')
         }
+
+        if((tmpScrollTop >= competencePosition) && (tmpScrollTop <= objectifPosition)){
+
+            $('#comp').addClass('active')
+
+        } else {
+
+            $('#comp').removeClass('active')
+        }
+
+        if((tmpScrollTop >= objectifPosition) && (tmpScrollTop <= portfolioPosition)){
+
+            $('#obj').addClass('active')
+
+        } else {
+
+            $('#obj').removeClass('active')
+        }
+
+        if((tmpScrollTop >= portfolioPosition) && (tmpScrollTop <= formationPosition)){
+
+            $('#folio').addClass('active')
+
+        } else {
+
+            $('#folio').removeClass('active')
+        }
+
+        if((tmpScrollTop >= formationPosition) && (tmpScrollTop <= experiencePosition)){
+
+            $('#form').addClass('active')
+
+        } else {
+
+            $('#form').removeClass('active')
+        }
+
+        if((tmpScrollTop >= experiencePosition) && (tmpScrollTop <= contactPosition)){
+
+            $('#exp').addClass('active')
+
+        } else {
+
+            $('#exp').removeClass('active')
+        }
+
+        if(tmpScrollTop >= contactPosition){
+
+            $('#cont').addClass('active')
+
+        } else {
+
+            $('#cont').removeClass('active')
+        }
+
     })
-}
+})
 
