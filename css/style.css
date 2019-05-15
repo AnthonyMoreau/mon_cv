@@ -81,7 +81,7 @@ textarea {
     border-radius: 3px;
 }
 .nav-link.active {
-    color: tomato;
+    color: rgb(255, 30, 0);
 }
 
 #modal {
