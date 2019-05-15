@@ -32,10 +32,7 @@ a .text-uppercase:hover {
     background-color: rgb(0, 0, 0, 0.2);
 
 }
-address {
 
-    background-color: rgb(0, 0, 0, 0.2);
-}
 
 #title,#title1, #title2, #title3, #title4, #title5 {
 
@@ -83,4 +80,11 @@ textarea {
     border: 5px solid rgb(0, 0, 0, 0.5);
     border-radius: 3px;
 }
+.nav-link.active {
+    color: tomato;
+}
 
+#modal {
+    padding: 10px 0 50px 0;
+    color: black;
+}

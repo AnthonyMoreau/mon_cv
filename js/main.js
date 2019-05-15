@@ -9,7 +9,11 @@ let objectifPosition = ($('#objectif').offset().top) -150
 let portfolioPosition = ($('#portfolio').offset().top) -100
 let formationPosition = ($('#formation').offset().top) -100
 let experiencePosition = ($('#experience').offset().top) -100
-let contactPosition = ($('#contact').offset().top) -100
+let contactPosition = ($('#contact').offset().top) -200
+
+if (screenWidth <= 1280) {
+    contactPosition = ($('#contact').offset().top) -200
+}
 
 // recuperation scroll du document
 let documentScrollPosition = $(document).scrollTop()
